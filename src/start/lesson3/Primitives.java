@@ -42,16 +42,33 @@ public class Primitives {
         //System.out.println(doubleNumber);
         //System.out.println(floatNumber);
 
-        //Char - character (символ), 16 bit
-        char letter = 70;
-        //System.out.println(letter);
+//        //Char - character (символ), 16 bit
+//        char letter = 70;
+//        //System.out.println(letter);
+
+//        char newLine = '\n';
+//        System.out.print("a");
+//        System.out.print(newLine);
+//        System.out.print("b\n");
+//        char tab = '\t';
+//        char escape = '\\';
+//        System.out.println(escape);
+
+//        char letter = 'Я' + 132;
+//        System.out.println(letter);
+//
+//        char let = 70;
+//        System.out.println(let);
 
         char newLine = '\n';
         System.out.print("a");
         System.out.print(newLine);
         System.out.print("b\n");
+
         char tab = '\t';
         char escape = '\\';
+        System.out.println(tab);
         System.out.println(escape);
+
     }
 }
