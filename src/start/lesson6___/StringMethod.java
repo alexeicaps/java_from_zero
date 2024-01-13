@@ -33,5 +33,36 @@ public class StringMethod {
         String names = "Yuri;Olga;Petr;Vasya";
         String[] namesArray = names.split(";", 3);
         System.out.println(Arrays.toString(namesArray));
+
+
+        String nnn = "Ghena;Jora;Alex;Borya";
+        String[] stringArray = nnn.split(";");
+        System.out.println(Arrays.toString(stringArray));
+        String textulUpper = nnn.toUpperCase();
+        String textulLower = nnn.toLowerCase();
+        System.out.println(textulUpper);
+        System.out.println(textulLower);
+
+        //Объединение строк (Конкатенация)
+        String word1 = "hi ";
+        String word2 = "friend";
+        String wordComplete = word1 + word2;
+        System.out.println(wordComplete);
+
+        //Начинается на подстроку
+        boolean startsWithHel = text.startsWith("Hel");
+        System.out.println(startsWithHel);
+
+        //Заканчивается на подстроку
+        boolean endsWithWorld = text.endsWith("world!");
+        System.out.println(endsWithWorld);
+
+        //Обрезка строки (Первые 5 символов)
+        String firstFiveLetters = text.substring(3, 8);
+        System.out.println(firstFiveLetters);
+
+        String textOlolo = "Hello my friend!".replaceAll("l", "|_").toUpperCase();
+        System.out.println(textOlolo);
+
     }
 }
